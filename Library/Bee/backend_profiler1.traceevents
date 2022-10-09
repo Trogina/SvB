@@ -1,0 +1,482 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1665323534552735, "dur":1030, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665323534553770, "dur":140, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1665323534553921, "dur":37, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1665323534553960, "dur":1335, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1665323534555599, "dur":942, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665323534556541, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665323534626497, "dur":137, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665323534626634, "dur":29, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665323534626663, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665323534626667, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665323534626675, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665323534626678, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665323534626685, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665323534626689, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665323534626696, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665323534626709, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665323534626753, "dur":2408, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1665323534555747, "dur":831, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665323534556594, "dur":4626, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665323534561231, "dur":0, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1665323534561232, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665323534561275, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1665323534561279, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665323534561933, "dur":3427, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1665323534565361, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1665323534565394, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665323534565400, "dur":1399, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1665323534566814, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1665323534566833, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665323534566838, "dur":1042, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1665323534567896, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1665323534567917, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665323534568534, "dur":1194, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1665323534569745, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1665323534569763, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665323534569768, "dur":1238, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1665323534571023, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665323534571043, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665323534571101, "dur":5399, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665323534576522, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665323534576547, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665323534576757, "dur":852, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665323534577627, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665323534577642, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665323534577701, "dur":1284, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665323534579004, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665323534579023, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665323534579029, "dur":898, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665323534579942, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665323534579961, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665323534579966, "dur":1175, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665323534581158, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665323534581174, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665323534581179, "dur":845, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665323534582038, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665323534582058, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665323534582062, "dur":1133, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665323534583211, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665323534583225, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665323534583230, "dur":1168, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665323534584413, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665323534584433, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665323534584438, "dur":1522, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665323534585976, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665323534585991, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665323534585995, "dur":1627, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665323534587637, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665323534587651, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665323534587655, "dur":1126, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665323534588796, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665323534588814, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665323534588818, "dur":1129, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665323534589961, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665323534589974, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665323534589992, "dur":1310, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665323534591317, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665323534591333, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665323534591338, "dur":1082, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665323534592435, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665323534592449, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665323534592454, "dur":799, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665323534593267, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665323534593281, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665323534593285, "dur":1935, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665323534595233, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665323534595246, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665323534595251, "dur":935, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665323534596203, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665323534596218, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665323534596224, "dur":896, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665323534597133, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665323534597148, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665323534597152, "dur":1058, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665323534598224, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665323534598237, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665323534598241, "dur":1531, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665323534599785, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665323534599838, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665323534599843, "dur":1797, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665323534601654, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665323534601669, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665323534601673, "dur":3177, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665323534604865, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665323534604971, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665323534604976, "dur":1379, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665323534606369, "dur":170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665323534606542, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665323534606547, "dur":913, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665323534607474, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665323534607567, "dur":20, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665323534607592, "dur":906, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665323534608511, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665323534608597, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665323534608601, "dur":1187, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665323534609802, "dur":368, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665323534610173, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665323534610178, "dur":1065, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665323534611258, "dur":342, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/Unity.ProBuilder.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665323534611603, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665323534611607, "dur":1248, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/Unity.ProBuilder.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665323534612870, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665323534612884, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665323534612889, "dur":1206, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665323534614110, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665323534614123, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665323534614129, "dur":1755, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665323534615898, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665323534615928, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665323534615933, "dur":1212, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665323534617159, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665323534617172, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665323534617176, "dur":1553, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665323534618746, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665323534618829, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665323534618843, "dur":2313, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665323534621175, "dur":141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665323534621319, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665323534621325, "dur":865, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665323534622207, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":1, "ts":1665323534622221, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665323534622226, "dur":924, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":1, "ts":1665323534623166, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1665323534623257, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665323534623261, "dur":771, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1665323534624049, "dur":2115, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665323534555912, "dur":712, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665323534556625, "dur":4651, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665323534561277, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1665323534561306, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665323534562959, "dur":2391, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1665323534565370, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1665323534565389, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665323534565395, "dur":1357, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1665323534566768, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1665323534566784, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665323534566791, "dur":1412, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1665323534568219, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1665323534568251, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665323534568562, "dur":1552, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1665323534570130, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665323534570166, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665323534570445, "dur":1711, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665323534572177, "dur":492, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks.exe" }}
+,{ "pid":12345, "tid":2, "ts":1665323534572672, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665323534572677, "dur":1290, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks.exe" }}
+,{ "pid":12345, "tid":2, "ts":1665323534573986, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1665323534574004, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665323534574382, "dur":3694, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1665323534578095, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665323534578115, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665323534578119, "dur":1366, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665323534579501, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665323534579520, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665323534579525, "dur":899, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665323534580438, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665323534580452, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665323534580457, "dur":1172, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665323534581646, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665323534581660, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665323534581680, "dur":837, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665323534582534, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665323534582552, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665323534582558, "dur":1246, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665323534583822, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665323534583841, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665323534583846, "dur":872, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665323534584733, "dur":278, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665323534585013, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665323534585018, "dur":993, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665323534586026, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665323534586041, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665323534586046, "dur":1598, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665323534587660, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665323534587674, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665323534587679, "dur":1050, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665323534588744, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665323534588757, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665323534588762, "dur":949, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665323534589725, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665323534589739, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665323534589744, "dur":1249, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665323534591007, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665323534591021, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665323534591040, "dur":1119, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665323534592175, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665323534592189, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665323534592195, "dur":896, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665323534593106, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665323534593125, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665323534593129, "dur":1686, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665323534594830, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665323534594844, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665323534594850, "dur":1700, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665323534596579, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665323534596594, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665323534596600, "dur":1216, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665323534597830, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665323534597844, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665323534597848, "dur":910, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665323534598773, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665323534598788, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665323534598792, "dur":802, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665323534599611, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665323534599624, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665323534599629, "dur":985, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665323534600628, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665323534600655, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665323534600659, "dur":1041, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665323534601713, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665323534601839, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665323534601844, "dur":929, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665323534602787, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665323534602816, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665323534602820, "dur":1378, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665323534604213, "dur":429, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665323534604644, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665323534604649, "dur":1445, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665323534606107, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665323534606190, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665323534606194, "dur":979, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665323534607187, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665323534607278, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665323534607283, "dur":1078, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665323534608377, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665323534608471, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665323534608476, "dur":1081, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665323534609572, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665323534609662, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665323534609681, "dur":857, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665323534610552, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/Unity.ProBuilder.Poly2Tri.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665323534610657, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665323534610662, "dur":762, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/Unity.ProBuilder.Poly2Tri.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665323534611439, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/Unity.ProBuilder.Csg.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665323534611533, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665323534611550, "dur":1267, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/Unity.ProBuilder.Csg.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665323534612839, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665323534612852, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665323534612857, "dur":1269, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665323534614144, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665323534614157, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665323534614162, "dur":1105, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665323534615283, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665323534615298, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665323534615303, "dur":1348, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665323534616666, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665323534616781, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665323534616785, "dur":2377, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665323534619176, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665323534619189, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665323534619194, "dur":1545, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665323534620757, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665323534620775, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665323534620781, "dur":1423, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665323534622220, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":2, "ts":1665323534622241, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665323534622245, "dur":3832, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":2, "ts":1665323534626103, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":2, "ts":1665323534626105, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665323534556070, "dur":596, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665323534556666, "dur":4611, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665323534561278, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1665323534561337, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665323534562831, "dur":2502, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1665323534565351, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1665323534565370, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665323534565376, "dur":1301, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1665323534566693, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1665323534566715, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665323534566774, "dur":1248, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1665323534568038, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1665323534568057, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665323534568502, "dur":1243, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1665323534569761, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":3, "ts":1665323534569776, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665323534569781, "dur":1490, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":3, "ts":1665323534571286, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665323534571302, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665323534571306, "dur":16191, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665323534587514, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665323534587534, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665323534587538, "dur":1707, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665323534589270, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665323534589289, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665323534589294, "dur":701, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665323534590008, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665323534590024, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665323534590031, "dur":1245, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665323534591292, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665323534591306, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665323534591311, "dur":1202, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665323534592528, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665323534592541, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665323534592546, "dur":731, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665323534593294, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665323534593307, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665323534593312, "dur":1789, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665323534595116, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665323534595130, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665323534595134, "dur":1333, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665323534596582, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665323534596599, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665323534596604, "dur":1039, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665323534597658, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665323534597671, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665323534597676, "dur":836, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665323534598526, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665323534598539, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665323534598558, "dur":793, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665323534599379, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665323534599411, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665323534599417, "dur":906, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665323534600337, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665323534600350, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665323534600354, "dur":740, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665323534601111, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665323534601124, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665323534601128, "dur":1079, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665323534602222, "dur":296, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665323534602520, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665323534602525, "dur":1342, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665323534603884, "dur":259, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665323534604147, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665323534604153, "dur":1534, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665323534605703, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665323534605797, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665323534605802, "dur":1702, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665323534607519, "dur":303, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665323534607825, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665323534607829, "dur":4890, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665323534612736, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665323534612751, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665323534612756, "dur":2663, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665323534615434, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665323534615449, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665323534615454, "dur":1238, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665323534616706, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665323534616719, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665323534616724, "dur":1030, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665323534617769, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665323534617784, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665323534617789, "dur":1125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665323534618929, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665323534618943, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665323534618947, "dur":2364, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665323534621328, "dur":256, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":3, "ts":1665323534621586, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665323534621918, "dur":749, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":3, "ts":1665323534622683, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1665323534622775, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665323534622779, "dur":761, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1665323534623554, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1665323534623636, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665323534623640, "dur":711, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1665323534624365, "dur":1800, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665323534556228, "dur":486, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665323534556714, "dur":4537, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665323534561252, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1665323534561314, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665323534562941, "dur":2558, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1665323534565517, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1665323534565534, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665323534566135, "dur":837, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1665323534566989, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1665323534567005, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665323534567011, "dur":1289, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1665323534568316, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1665323534568335, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665323534568535, "dur":1188, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1665323534569738, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1665323534569757, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665323534569816, "dur":1917, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1665323534571752, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1665323534571772, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665323534571776, "dur":6066, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1665323534577862, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665323534577883, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665323534577888, "dur":1274, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665323534579177, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665323534579191, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665323534579195, "dur":834, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665323534580044, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665323534580074, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665323534580080, "dur":937, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665323534581034, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665323534581056, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665323534581062, "dur":911, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665323534581989, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665323534582003, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665323534582008, "dur":1250, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665323534583273, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665323534583293, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665323534583298, "dur":871, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665323534584184, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665323534584203, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665323534584208, "dur":812, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665323534585036, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665323534585052, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665323534585060, "dur":790, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665323534585865, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665323534585883, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665323534585889, "dur":1597, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665323534587503, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665323534587518, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665323534587524, "dur":1176, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665323534588716, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665323534588729, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665323534588734, "dur":1687, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665323534590466, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665323534590497, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665323534590502, "dur":5817, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665323534596335, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665323534596349, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665323534596353, "dur":4538, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665323534600922, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665323534600944, "dur":12, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665323534600961, "dur":1361, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665323534602336, "dur":450, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665323534602789, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665323534602794, "dur":1578, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665323534604387, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665323534604481, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665323534604486, "dur":1538, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665323534606039, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665323534606129, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665323534606135, "dur":1219, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665323534607369, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665323534607471, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665323534607476, "dur":1082, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665323534608573, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665323534608663, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665323534608669, "dur":1258, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665323534609957, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/Unity.ProBuilder.Stl.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665323534610074, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665323534610079, "dur":825, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/Unity.ProBuilder.Stl.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665323534610918, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/Unity.ProBuilder.KdTree.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665323534611020, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665323534611024, "dur":696, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/Unity.ProBuilder.KdTree.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665323534611734, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665323534611750, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665323534611755, "dur":1574, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665323534613343, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665323534613356, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665323534613360, "dur":1105, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665323534614482, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665323534614495, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665323534614526, "dur":830, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665323534615371, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665323534615384, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665323534615388, "dur":1226, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665323534616630, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665323534616646, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665323534616651, "dur":2888, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665323534619552, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665323534619565, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665323534619569, "dur":3824, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665323534623409, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/data.unity3d" }}
+,{ "pid":12345, "tid":4, "ts":1665323534623423, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665323534623427, "dur":2604, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trogi/Desktop/  (7)/PjSnakeVSBlocks_Data/data.unity3d" }}
+,{ "pid":12345, "tid":4, "ts":1665323534626059, "dur":80, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665323534630263, "dur":1630, "ph":"X", "name": "ProfilerWriteOutput" }
+,
